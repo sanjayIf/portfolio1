@@ -1,8 +1,8 @@
-name: Deploy Vite React App to GitHub Pages
+name: Deploy Portfolio 1 to GitHub Pages
 
 on:
   push:
-    branches: [main] # or "master" if your default branch is master
+    branches: [ main ] # or master
 
 permissions:
   contents: read
@@ -25,7 +25,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: "npm"
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
@@ -36,7 +36,7 @@ jobs:
       - name: Upload build output
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist # Vite outputs to "dist" by default
+          path: ./dist  # vite output
 
   deploy:
     environment:
