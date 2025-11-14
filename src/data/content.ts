@@ -33,7 +33,7 @@ export const projects = [
   },
   { 
     title: "Interactive Motion Console", 
-    description: "12 gesture-controlled games using MediaPipe.", 
+    description: "Gesture-controlled console with 12 games using MediaPipe.", 
     tools: ["Unity", "C#", "MediaPipe"], 
     link: "" 
   },
@@ -145,6 +145,54 @@ export const projects = [
     tools: ["Unity", "C#"], 
     link: "" 
   },
+  { 
+    title: "Baccarat", 
+    description: "Multiplayer casino card game with real-time betting.", 
+    tools: ["Unity", "Socket.io"], 
+    link: "" 
+  },
+  { 
+    title: "BlackJack", 
+    description: "Multiplayer casino card game with real-time betting.", 
+    tools: ["Unity", "Socket.io"], 
+    link: "" 
+  },
+  { 
+    title: "Casino War", 
+    description: "Multiplayer casino card game with real-time betting.", 
+    tools: ["Unity", "Socket.io"], 
+    link: "" 
+  },
+  { 
+    title: "Mini Flush", 
+    description: "Multiplayer casino card game with real-time betting.", 
+    tools: ["Unity", "Socket.io"], 
+    link: "" 
+  },
+  { 
+    title: "7 Up Down", 
+    description: "Multiplayer casino card game with real-time betting.", 
+    tools: ["Unity", "Socket.io"], 
+    link: "" 
+  },
+  { 
+    title: "Andar Bahar", 
+    description: "Multiplayer casino card game with real-time betting.", 
+    tools: ["Unity", "Socket.io"], 
+    link: "" 
+  },
+  { 
+    title: "Car Game", 
+    description: "3D car game with coin collection and world navigation.", 
+    tools: ["Unity", "C#"], 
+    link: "" 
+  },
+  { 
+    title: "Online Tractor Selling System", 
+    description: "Web application for online tractor sales and order management.", 
+    tools: ["Web", "Database"], 
+    link: "" 
+  }
 ];
 
 export const experience = [
