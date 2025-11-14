@@ -25,173 +25,172 @@ export const skills = [
 ];
 
 export const projects = [
-  { 
-    title: "Fiction OT", 
-    description: "Medical visualization system simulating surgeries in Unity.", 
-    tools: ["Unity", "C#"], 
-    link: "" 
+  // --- Projects at Invisible Fiction: (Jul 2023-continue) ---
+  {
+    title: "Fiction OT",
+    description: "Cutting-edge medical visualization system simulating procedures (sonography, endoscopy, CT scans, etc.) to enhance surgical training and practice.",
+    tools: ["Unity 3D", "C#"],
+    link: ""
   },
-  { 
-    title: "Interactive Motion Console", 
-    description: "Gesture-controlled console with 12 games using MediaPipe.", 
-    tools: ["Unity", "C#", "MediaPipe"], 
-    link: "" 
+  {
+    title: "Interactive Motion-Controlled Game Console",
+    description: "Led development of a console featuring 12 unique games controlled by full-body and hand gestures using Unity and MediaPipe.",
+    tools: ["Unity 3D", "C#", "mediapipe python"],
+    link: ""
   },
-  { 
-    title: "Pythogyn3D", 
-    description: "3D uterus simulation and diagnosis software.", 
-    tools: ["Unity", "C#"], 
-    link: "" 
+  {
+    title: "Pythogyn3D - Uterus Simulation & Diagnosis Software",
+    description: "Advanced medical simulation for gynecological study, diagnosis, and training, featuring 3D uterus models and plaque detection.",
+    tools: ["Unity 3D", "C#"],
+    link: ""
   },
-  { 
-    title: "Kne3Wiz", 
-    description: "Knee surgery simulation system for doctors.", 
-    tools: ["Unity", "C#"], 
-    link: "https://arthro3d.online/products/kne3wiz/" 
+  // --- Projects at Intricare Technology: (Aug 2022 - Jul 2023) ---
+  {
+    title: "Baccarat",
+    description: "Multiplayer casino card game taking input from a card shoe and displaying results based on its rules.",
+    tools: ["Unity 3D", "C#", "Socket.io", "node.js"],
+    link: ""
   },
-  { 
-    title: "Virtual Jewellery Showroom", 
-    description: "AR walkthrough jewelry try-on app.", 
-    tools: ["Unity", "ARCore"], 
-    link: "" 
+  {
+    title: "BlackJack",
+    description: "Multiplayer casino card game taking input from a card shoe and displaying results based on its rules.",
+    tools: ["Unity 3D", "C#", "Socket.io", "node.js"],
+    link: ""
   },
-  { 
-    title: "StoryBook", 
-    description: "3D animated story creation tool with FBX import.", 
-    tools: ["Unity", "C#"], 
-    link: "" 
+  {
+    title: "Casino War",
+    description: "Multiplayer casino card game taking input from a card shoe and displaying results based on its rules.",
+    tools: ["Unity 3D", "C#", "Socket.io", "node.js"],
+    link: ""
   },
-  { 
-    title: "ToppleTree", 
-    description: "Multiplayer balance game built in Unity.", 
-    tools: ["Unity", "C#"], 
-    link: "https://invisiblefiction.com/portfolio-item/topple-tree/" 
+  {
+    title: "Mini flush",
+    description: "Multiplayer casino card game taking input from a card shoe and displaying results based on its rules.",
+    tools: ["Unity 3D", "C#", "Socket.io", "node.js"],
+    link: ""
   },
-  { 
-    title: "ColourBook", 
-    description: "AR coloring app applying real marker colors to 3D models.", 
-    tools: ["Unity", "C#"], 
-    link: "https://play.google.com/store/apps/details?id=com.Interactive.AnimalColorAR" 
+  {
+    title: "7 Up Down",
+    description: "Multiplayer casino game taking input from a card shoe and displaying results based on its rules.",
+    tools: ["Unity 3D", "C#", "Socket.io", "node.js"],
+    link: ""
   },
-  { 
-    title: "BearBrowls Ultras", 
-    description: "2.5D strategy game inspired by Clash of Clans.", 
-    tools: ["Unity", "C#"], 
-    link: "" 
+  {
+    title: "Andar Bahar",
+    description: "Multiplayer casino card game taking input from a card shoe and displaying results based on its rules.",
+    tools: ["Unity 3D", "C#", "Socket.io", "node.js"],
+    link: ""
   },
-  { 
-    title: "God Generation", 
-    description: "AR temple app showing 3D gods on markers.", 
-    tools: ["Unity", "C#"], 
-    link: "" 
+  {
+    title: "Ludo",
+    description: "4-player real game (changes made to existing code) using Unity 3D frontend and Node.js/Socket backend.",
+    tools: ["Unity 3D", "node.js", "Socket"],
+    link: ""
   },
-  { 
-    title: "Casino Suite", 
-    description: "Multiplayer casino games like Poker, Blackjack, Baccarat.", 
-    tools: ["Unity", "Node.js", "Socket.io"], 
-    link: "" 
+  {
+    title: "Poker",
+    description: "8-player real money card game using Unity3d, node.js, and socket, with 3 rounds and 5 community cards.",
+    tools: ["Unity 3D", "node.js", "Socket"],
+    link: ""
   },
-  { 
-    title: "Poker", 
-    description: "8-player real-money poker game with betting logic.", 
-    tools: ["Unity", "Socket.io"], 
-    link: "" 
+  // --- Projects at Invisible Fiction: (Jan 2015 - Aug 2022) ---
+  {
+    title: "StoryBook",
+    description: "A dual-tool system (Authoring/Player) for creating animated 3D stories by linking models and animations to words.",
+    tools: ["Unity 3D", "C#"],
+    link: ""
   },
-  { 
-    title: "Ludo", 
-    description: "4-player multiplayer board game with socket integration.", 
-    tools: ["Unity", "Socket.io"], 
-    link: "" 
+  {
+    title: "FrogWarz",
+    description: "Two-sided frog combat game with different levels and worlds, where frogs use collected flies as weapons.",
+    tools: ["Unity 3D", "C#"],
+    link: ""
   },
-  { 
-    title: "StoryLand", 
-    description: "3D multiplayer world with mini-games and quests.", 
-    tools: ["Unity", "C#"], 
-    link: "" 
+  {
+    title: "Kne3Wiz",
+    description: "Medical project for knee replacement surgery. Helps doctors find actual femur and tibia size based on CT scans.",
+    tools: ["Unity 3D", "C#"],
+    link: "https://arthro3d.online/products/kne3wiz/"
   },
-  { 
-    title: "LittleLens", 
-    description: "AR kids' app applying real-time facial filters.", 
-    tools: ["Unity", "ARCore"], 
-    link: "https://invisiblefiction.com/portfolio-item/little-lens/" 
+  {
+    title: "ARKI",
+    description: "Simple ARKit project where users dynamically generate multiple markers for world detection.",
+    tools: ["Unity 3D", "C#", "ARKIT"],
+    link: ""
   },
-  { 
-    title: "Object Detection", 
-    description: "ML-based object recognition integrated in Unity.", 
-    tools: ["TensorFlow", "Unity", "Python"], 
-    link: "" 
+  {
+    title: "Virtual Jewellery ShowRoom",
+    description: "Virtual Show Room allowing users to walk through products, view details, and have a 'TryOn' experience.",
+    tools: ["Unity 3D", "C#"],
+    link: "https://drive.google.com/file/d/1vBYCdWR5pBM5Iv-XyCGjs9C8bzkzwxmg/view?usp=share link"
   },
-  { 
-    title: "ARki", 
-    description: "ARKit app for dynamic marker generation and world detection.", 
-    tools: ["Unity", "ARKit"], 
-    link: "" 
+  {
+    title: "LencePro",
+    description: "iOS application that replaces spectacle machine functionality by measuring optical distances (PD, A, B, DBL) using face detection.",
+    tools: ["Unity 3D", "C#"], // Note: Resume states "support on latest IOS"
+    link: "Currently under development."
   },
-  { 
-    title: "Tixxi", 
-    description: "Social event app displaying user reels and nearby events.", 
-    tools: ["Unity", "C#"], 
-    link: "https://tixxiapp.com/" 
+  {
+    title: "Tixxi",
+    description: "Event-based application where users can create 'moments' and invite friends, displaying events in a selected area.",
+    tools: ["Unity 3D", "C#"],
+    link: "https://tixxiapp.com/#! (Currently this project is under development.)"
   },
-  { 
-    title: "LencePro", 
-    description: "Optical measurement app replacing spectacles machine.", 
-    tools: ["Unity", "C#", "ARKit"], 
-    link: "" 
+  {
+    title: "ColourBook",
+    description: "AR coloring application where color filled in a physical marker is applied to a generated 3D model.",
+    tools: ["Unity 3D", "C#"],
+    link: "https://play.google.com/store/apps/details?id=com.Interactive.AnimalColorAR"
   },
-  { 
-    title: "FrogWarz", 
-    description: "Frog combat game using flies as weapons and power-ups.", 
-    tools: ["Unity", "C#"], 
-    link: "" 
+  {
+    title: "ObjectDetection",
+    description: "Machine learning project that detects objects using a camera based on trained images.",
+    tools: ["Tensorflow", "python", "unity3d"],
+    link: ""
   },
-  { 
-    title: "Baccarat", 
-    description: "Multiplayer casino card game with real-time betting.", 
-    tools: ["Unity", "Socket.io"], 
-    link: "" 
+  {
+    title: "Storyland",
+    description: "Multiplayer game where players move on different areas, play small games, earn points, and complete tasks.",
+    tools: ["Unity 3D", "C#"],
+    link: ""
   },
-  { 
-    title: "BlackJack", 
-    description: "Multiplayer casino card game with real-time betting.", 
-    tools: ["Unity", "Socket.io"], 
-    link: "" 
+  {
+    title: "LittleLense",
+    description: "AR application for small kids with different face filters applied based on expressions.",
+    tools: ["Unity 3D", "C#"],
+    link: "https://invisiblefiction.com/portfolio-item/little-lens/"
   },
-  { 
-    title: "Casino War", 
-    description: "Multiplayer casino card game with real-time betting.", 
-    tools: ["Unity", "Socket.io"], 
-    link: "" 
+  {
+    title: "ToppleTree",
+    description: "Load balancing multiplayer game where players pick and place tree parts without letting the tree fall.",
+    tools: ["Unity 3D", "C#"],
+    link: "https://invisiblefiction.com/portfolio-item/topple-tree/"
   },
-  { 
-    title: "Mini Flush", 
-    description: "Multiplayer casino card game with real-time betting.", 
-    tools: ["Unity", "Socket.io"], 
-    link: "" 
+  // --- FreeLance Projects ---
+  {
+    title: "BearBrowls Ultras",
+    description: "2.5D non-real-time multiplayer strategy game (like Clash of Clans) with offline attack mechanics and upgradable characters/structures.",
+    tools: ["Unity 3D", "C#"],
+    link: "https://drive.google.com/file/d/1hEels-39q-08L3RS7uliSZKZypLCzq -/view?usp=sharing"
   },
-  { 
-    title: "7 Up Down", 
-    description: "Multiplayer casino card game with real-time betting.", 
-    tools: ["Unity", "Socket.io"], 
-    link: "" 
+  {
+    title: "God Generation",
+    description: "AR-based application that tracks markers in a temple to generate 3D god models with background audio.",
+    tools: ["Unity 3D", "C#"],
+    link: ""
   },
-  { 
-    title: "Andar Bahar", 
-    description: "Multiplayer casino card game with real-time betting.", 
-    tools: ["Unity", "Socket.io"], 
-    link: "" 
+  // --- Final Year Projects ---
+  {
+    title: "Car game",
+    description: "Simple 3D car game with 25 levels, coin collection, and an arrow to guide toward the nearest coin.",
+    tools: ["3d car Game"],
+    link: ""
   },
-  { 
-    title: "Car Game", 
-    description: "3D car game with coin collection and world navigation.", 
-    tools: ["Unity", "C#"], 
-    link: "" 
-  },
-  { 
-    title: "Online Tractor Selling System", 
-    description: "Web application for online tractor sales and order management.", 
-    tools: ["Web", "Database"], 
-    link: "" 
+  {
+    title: "Online Tractor Selling System",
+    description: "Web application for a company to sell tractors to dealers/customers and save records online.",
+    tools: ["web application"],
+    link: ""
   }
 ];
 
