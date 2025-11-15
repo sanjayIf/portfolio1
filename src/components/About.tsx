@@ -51,7 +51,7 @@ const About = () => {
             >
               <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20 border border-primary/30 glow-cyan">
                 <img
-                  src="/images/jaydipsinh_parmar.jpg"
+                  src="images/jaydipsinh_parmar.jpg"
                   alt="Jaydipsinh Parmar"
                   className="w-full h-full object-cover"
                 />
