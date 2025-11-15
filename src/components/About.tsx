@@ -31,8 +31,8 @@ const About = () => {
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.05, duration: 0.3 }}
                   >
-                    <Badge 
-                      variant="outline" 
+                    <Badge
+                      variant="outline"
                       className="border-primary text-primary hover:bg-primary/10 glow-cyan px-4 py-2 text-sm font-medium"
                     >
                       {skill}
@@ -49,13 +49,13 @@ const About = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-            <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20 border border-primary/30 glow-cyan">
-              <img 
-                src="/portfolio1/public/images/jaydipsinh_parmar.jpg"
-                alt="Jaydipsinh Parmar"
-                className="w-full h-full object-cover"
-              />
-            </div>
+              <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20 border border-primary/30 glow-cyan">
+                <img
+                  src="/images/jaydipsinh_parmar.jpg"
+                  alt="Jaydipsinh Parmar"
+                  className="w-full h-full object-cover"
+                />
+              </div>
 
             </motion.div>
           </div>
