@@ -49,9 +49,14 @@ const About = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 border border-primary/30 glow-cyan flex items-center justify-center">
-                <div className="text-9xl">👨‍💻</div>
-              </div>
+            <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20 border border-primary/30 glow-cyan">
+              <img 
+                src="/images/jaydipsinh_parmar.jpg"
+                alt="Jaydipsinh Parmar"
+                className="w-full h-full object-cover"
+              />
+            </div>
+
             </motion.div>
           </div>
         </motion.div>

@@ -3,7 +3,7 @@ export const bio = {
   title: "Unity 3D Developer & Team Lead",
   subtitle: "Crafting immersive AR/VR and medical simulation experiences since 2015.",
   description: "I'm a Unity 3D Developer with 9+ years of experience in creating AR/VR, medical simulations, and multiplayer games. Currently leading Unity projects at Invisible Fiction.",
-  email: "jaydip.parmar.if@gmail.com",
+  email: "parmarjaydip465@gmail.com",
   phone: "+91 9909538378",
   linkedin: "#",
   github: "#"
